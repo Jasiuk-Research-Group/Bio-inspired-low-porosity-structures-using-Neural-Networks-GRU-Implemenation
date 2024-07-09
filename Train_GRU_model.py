@@ -60,11 +60,11 @@ for REP in range( 1 ):
         pass
 
     #################################################  Read Inputs  #######################################################################
-    f = open( '/content/drive/MyDrive/Colab Notebooks/Poly_ML/Parameter_model/Parameter_Input_arr_wo_circle_x100.npy' , 'rb' )
+    f = open( '/content/drive/MyDrive/Colab Notebooks/Poly_ML/Parameter_model/Parameter_Input_arr_x100.npy' , 'rb' )
     x_arry = np.load( f )
     f.close()
 
-    f = open( '/content/drive/MyDrive/Colab Notebooks/Poly_ML/Parameter_model/Parameter_Output_50_steps_wo_circle_x100.npy' , 'rb' )
+    f = open( '/content/drive/MyDrive/Colab Notebooks/Poly_ML/Parameter_model/Parameter_Output_50_steps_x100.npy' , 'rb' )
     y = np.load( f )
     f.close()
 
