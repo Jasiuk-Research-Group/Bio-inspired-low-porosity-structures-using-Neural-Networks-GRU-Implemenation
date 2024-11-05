@@ -229,6 +229,3 @@ np.save( f , All_train_time )
 f.close()
 print('\n\nTraining time:')
 print( All_train_time )
-
-# Copying folders, format: !rsync -r --progress source_path destination_path
-!rsync -r --progress "/content/Results" "/content/drive/MyDrive/Colab Notebooks/Poly_ML/Parameter_model/Only_Polygons"
